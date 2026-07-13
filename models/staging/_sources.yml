@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: olist_raw
+    database: olist
+    schema: olist_raw
+    tables:
+      - name: customers
+        identifiers: olist_customers_dataset
+      - name: orders
+        identifiers: olist_orders_dataset
+      - name: order_items
+        identifiers: olist_order_items_dataset
+      - name: products
+        identifiers: olist_products_dataset
+      - name: order_payments
+        identifiers: olist_order_payments_dataset
+      - name: order_reviews
+        identifiers: olist_order_reviews_dataset
+      - name: sellers
+        identifiers: olist_sellers_dataset
+      - name: geolocation
+        identifiers: olist_geolocation_dataset
